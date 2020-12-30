@@ -29,7 +29,7 @@ socket.on('ultimos4', function (data) {
 
 function actualizaHTML(ultimos4) {
     for (let i = 0; i < ultimos4.length; i++) {
-        lblTickets[i].text('Ticket' + ultimos4[i].numero);
-        lblEscritorios[i].text('Ticket' + ultimos4[i].escritorio);
+        lblTickets[i].text('Ticket ' + ultimos4[i].numero);
+        lblEscritorios[i].text('Ticket ' + ultimos4[i].escritorio);
     }
 }
